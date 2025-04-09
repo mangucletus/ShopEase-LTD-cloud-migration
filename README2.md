@@ -1,28 +1,8 @@
-# 🚀 ShopEase LTD Cloud Migration Project
-
-## Overview
-
-This project involves the migration of ShopEase LTD's infrastructure to AWS. The goal is to build a **secure, scalable, and highly available** cloud-based e-commerce infrastructure.
-
-## ShopEase LTD Cloud Infrastructure - Using Terraform 
+# 🚀 ShopEase LTD Cloud Infrastructure - Terraform Project
 
 This project provisions a secure, scalable, and highly available AWS infrastructure for **ShopEase LTD**, an e-commerce platform. It uses **Terraform** to define infrastructure as code (IaC), enabling consistent, repeatable deployments and team collaboration.
 
-## 🛠️ Prerequisites
-
-- [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
-- AWS CLI configured (`aws configure`)
-- AWS account with IAM access
-- SSH key pair (public key for bastion host access)
-
 ---
-
-## 🛠️ Tools & Technologies
-- AWS VPC, EC2, RDS, ALB, Auto Scaling
-- Terraform
-- CloudWatch, CloudTrail
-- Ubuntu Linux (20.04)
-- IAM Roles and Policies
 
 ## 📦 Infrastructure Components
 
@@ -97,47 +77,21 @@ project-week8/
 
 ---
 
-## 📊 Diagram Image
-![Architecture Diagram](images/diagram.png)
-![Architecture Diagram](images/diagram2.png)
+## 🛠️ Prerequisites
 
+- [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
+- AWS CLI configured (`aws configure`)
+- AWS account with IAM access
+- SSH key pair (public key for bastion host access)
 
-## 🔐 Security Measures
-
-- IAM user roles with least privilege access
-- Security groups per layer (Load Balancer, App, DB)
-- NACLs on subnets for extra protection
-- Encrypted communication & backups
-
-## 🔄 Auto Scaling & Load Balancing
-
-- Launch Template based on custom AMI
-- ASG spans multiple AZs with dynamic scaling
-- Health checks via ALB
-- ELB listeners for HTTP/HTTPS traffic
-
-## 📈 Monitoring & Logging
-
-- CloudWatch for metrics & alarms
-- CloudTrail for API call history
-- Logs stored in CloudWatch Logs group
-
-
-## 👥 Team Roles
-
-- **Architect:** VPC & architecture design
-- **Engineer:** EC2, ALB, ASG setup
-- **DB Admin:** RDS configuration
-- **Security:** IAM, SG, ACL setup
-- **Ops:** Monitoring & documentation
-
+---
 
 ## 🚀 Deployment Steps
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/mangucletus/ShopEase-LTD-cloud-migration.git
-cd ShopEase-LTD-cloud-migration
+git clone https://github.com/your-org/shopease-infra.git
+cd shopease-infra
 ```
 
 2. **Initialize Terraform**
@@ -165,6 +119,14 @@ ssh -i ~/.ssh/your-key.pem ec2-user@<bastion-public-ip>
 
 ---
 
+## 🔐 Security Best Practices
+
+- Use secrets manager or environment variables to store credentials.
+- Restrict SSH access using IP whitelisting.
+- Use encryption for RDS (add `storage_encrypted = true`).
+- Enable monitoring with CloudWatch and alarms.
+
+---
 
 ## 📝 Notes
 
