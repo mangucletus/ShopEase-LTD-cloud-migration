@@ -122,10 +122,15 @@ resource "aws_route_table_association" "private_2" {
 #------------------------
 # 2. Key Pair for SSH
 #------------------------
+# resource "aws_key_pair" "bastion_key" {
+#   key_name   = "bastion-key"
+#   public_key = file("~/.ssh/id_rsa.pub") # Update with correct path
+# }
 resource "aws_key_pair" "bastion_key" {
-  key_name   = "bastion-key"
-  public_key = file("~/.ssh/id_rsa.pub") # Update with correct path
+  key_name   = "shopease-keypair"
+  public_key = file("/home/cletusmangu/Downloads/shopease-keypair.pub")
 }
+
 
 #------------------------
 # 3. Security Groups
