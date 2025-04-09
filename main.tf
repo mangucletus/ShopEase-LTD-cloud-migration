@@ -85,7 +85,6 @@ resource "aws_route_table_association" "public_2" {
 
 # NAT Gateway for private instances
 resource "aws_eip" "nat_eip" {
-  vpc = true
   tags = {
     Name = "shopease-nat-eip"
   }
