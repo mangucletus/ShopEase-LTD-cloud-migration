@@ -100,6 +100,9 @@ project-week8/
 ## 📊 Architecture Diagram Image
 
 ![Architecture Diagram](images/diagram.png)
+
+**The Architecture Design
+
 🧱 [System Architecture Diagram on draw.io](https://bit.ly/3E5m3Tb)
 
 
