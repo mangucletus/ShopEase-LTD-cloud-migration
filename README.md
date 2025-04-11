@@ -56,7 +56,7 @@ project-week8/
 
 ---
 
-## 🌐 Architecture Diagram
+## 🌐 Skeleton Architecture Diagram
 
 > A custom VPC with public and private subnets across two availability zones, with secure networking and layer-separated resources.
 
@@ -97,7 +97,8 @@ project-week8/
 
 ---
 
-## 📊 Diagram Image
+## 📊 Architecture Diagram Image
+
 ![Architecture Diagram](images/diagram.png)
 🧱 [System Architecture Diagram on draw.io](https://bit.ly/3E5m3Tb)
 
@@ -203,5 +204,6 @@ DevOps Engineers | AWS Practitioners | Cloud Architects
 This project is for educational and professional capstone purposes under the **AWS Cloud Migration** track. No commercial license applies.
 
 
+## Project Report
 🔗 [Project Report - Microsoft Word Document](https://bit.ly/42o8uGq)
 
