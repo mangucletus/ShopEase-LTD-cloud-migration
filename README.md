@@ -99,7 +99,8 @@ project-week8/
 
 ## 📊 Diagram Image
 ![Architecture Diagram](images/diagram.png)
-![Architecture Diagram](images/diagram2.png)
+🧱 [System Architecture Diagram on draw.io](https://bit.ly/3E5m3Tb)
+
 
 
 ## 🔐 Security Measures
@@ -200,3 +201,7 @@ DevOps Engineers | AWS Practitioners | Cloud Architects
 ## 📄 License
 
 This project is for educational and professional capstone purposes under the **AWS Cloud Migration** track. No commercial license applies.
+
+
+🔗 [Project Report - Microsoft Word Document](https://bit.ly/42o8uGq)
+
